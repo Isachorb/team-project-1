@@ -1,0 +1,113 @@
+/*style sheet created by Isabel Chorbajian on 12/11/17 */
+
+/* style for body specifies a background color */
+
+/* stile for Mobile Layout */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+body{
+	font-family: 'Lobster', cursive;
+	background-color: palegreen;  
+	background-image: 800px;
+	align:center;
+	text-align: center;
+	
+}
+/* stile to crreat a fluid image */
+ img {
+	max-width: 100%;
+}
+/* Style displays the mobile class*/
+.mobile {
+	display: inline;
+}
+/* style hides the desktop class*/
+.desktop {
+	display: inline;
+}
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 65px;
+	color: darkSlateGray;
+	text-align: center;
+	
+}
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	color: darkSlateGray;
+	text-align: center;
+}
+
+.beaches {
+	height: 400px;
+	width: 600px;
+	padding: 1px;
+	
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+    background-color: palegreen;
+    overflow: hidden;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: darkSlateGray;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 16px;
+	font-family: 'Lobster', cursive;
+}
+	/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: LightSalmon;
+    color: darkSlateGray;
+}
+
+
+/* style for places to visit thumbnails */
+body {
+		background: PaleGreen;
+		margin: 0;
+	}
+	.thumbnails img {
+		height: 120px;
+		border: 4px solid darkSlateGray;
+		padding: 1px;
+		margin-top: 40px;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid lightSalmon;
+		cursor: pointer;
+		height: 160px;
+		padding: 1px;
+		margin-top: 0px;
+	}
+
+	.preview img {
+		border: 4px solid #444;
+		padding: 1px;
+		width: 800px;
+	}
+
+	
+/* style for form in contact us page */
+form {
+	font-family: 'Lobster', cursive;
+	font-size: 15px;
+	color: darkSlateGray;
+	width: auto;
+	height: auto;
+}	
+
